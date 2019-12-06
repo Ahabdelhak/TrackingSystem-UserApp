@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.1.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\466f860366d76df5c9846064b43679f7\jetified-firebase-ui-auth-6.1.0\AndroidManifest.xml:2:1-109:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\9d6f0c6ce1072e080bd324ee1d6f3685\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\2dac08bdb318fac578c66392805bc5b3\library-1.6.1\AndroidManifest.xml:6:1-15:12
@@ -76,20 +76,20 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ah_abdelhak\.gradle\
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\5a88f8114f167e8ebe55f99f39a076e6\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\beddc53abac9986edefbca79333cfe3f\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\369024083957dc6a493eefb5c65df961\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml
 		INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml
-		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml
-		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -132,7 +132,7 @@ ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManif
 	android:name
 		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:14:19-67
 application
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:17:5-50:19
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:17:5-53:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.1.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\466f860366d76df5c9846064b43679f7\jetified-firebase-ui-auth-6.1.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.1.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\466f860366d76df5c9846064b43679f7\jetified-firebase-ui-auth-6.1.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\ah_abdelhak\.gradle\caches\transforms-2\files-2.1\9d6f0c6ce1072e080bd324ee1d6f3685\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -220,23 +220,27 @@ ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManif
 	android:name
 		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:38:13-41
 activity#com.example.ahabdelhak.userapp.MainActivity
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:40:9-46:20
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:40:9-42:20
 	android:name
 		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:40:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:41:13-45:29
-action#android.intent.action.MAIN
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:42:17-69
-	android:name
-		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:42:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:44:17-77
-	android:name
-		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:44:27-74
 activity#com.example.ahabdelhak.userapp.GpsLocation
-ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:47:9-49:20
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:43:9-45:20
 	android:name
-		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:47:19-46
+		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:43:19-46
+activity#com.example.ahabdelhak.userapp.Register
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:46:9-52:20
+	android:name
+		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:46:19-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:47:13-51:29
+action#android.intent.action.MAIN
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml:50:27-74
 uses-sdk
 INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\1-Freelancing\TrackingSystem\TrackingApp\app\src\main\AndroidManifest.xml

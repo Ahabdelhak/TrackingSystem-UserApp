@@ -1,6 +1,7 @@
 package com.example.ahabdelhak.userapp;
 
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -37,9 +38,8 @@ public class GpsLocation extends AppCompatActivity implements GoogleApiClient.Co
         GoogleApiClient.OnConnectionFailedListener,LocationListener {
 
     LocationManager manager;
-
+    Button map,btnGps;
     double lat,longg;
-
     ProgressBar simpleProgressBar;
     DatabaseReference locations;
 
@@ -48,6 +48,9 @@ public class GpsLocation extends AppCompatActivity implements GoogleApiClient.Co
     private LocationRequest mLocationRequest;
     private GoogleApiClient mGoogleApiClient;
     private Location mLastLocation;
+    Double Lat,Lng ;
+    TextView txtLat,txtLng ;
+    ProgressDialog pd;
 
     private static int UPDATE_INTERVAL = 5000;
     private static int FASTEST_INTERVAL = 3000;
@@ -56,7 +59,40 @@ public class GpsLocation extends AppCompatActivity implements GoogleApiClient.Co
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.current_gps_loaction);
+
+        pd=new ProgressDialog(this);
+        pd.setMessage("Getting Your Location..");
+        pd.show();
+        pd.setCancelable(false);
+
         locations = FirebaseDatabase.getInstance().getReference("Locations");
+        txtLat=findViewById(R.id.txtLat);
+        txtLng=findViewById(R.id.txtLng);
+
+        map=findViewById(R.id.map);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(GpsLocation.this,MapsActivity.class);
+                intent.putExtra("Lat",Lat);
+                intent.putExtra("Lng",Lng);
+                startActivity(intent);
+
+            }
+        });
+
+        btnGps=findViewById(R.id.Gpsbtn);
+        btnGps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final LocationManager manager = (LocationManager) getSystemService( Context.LOCATION_SERVICE );
+                if ( !manager.isProviderEnabled( LocationManager.GPS_PROVIDER ) ) {
+                    Intent intent1= new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                    startActivity(intent1);
+                }
+            }
+        });
+
 
         //simpleProgressBar = (ProgressBar) findViewById(R.id.progbar);
         //simpleProgressBar.setVisibility(View.VISIBLE);
@@ -98,6 +134,8 @@ public class GpsLocation extends AppCompatActivity implements GoogleApiClient.Co
     }
 
     private void createLocationRequest() {
+        pd.dismiss();
+
         mLocationRequest = new LocationRequest();
         mLocationRequest.setInterval(UPDATE_INTERVAL);
         mLocationRequest.setFastestInterval(FASTEST_INTERVAL);
@@ -225,6 +263,14 @@ public class GpsLocation extends AppCompatActivity implements GoogleApiClient.Co
         }
         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
         if(mLastLocation != null){
+            Lat=mLastLocation.getLatitude();
+            Lng=mLastLocation.getLongitude();
+
+            txtLat.setText(Lat+"");
+            txtLng.setText(Lng+"");
+
+            pd.dismiss();
+
             locations.child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                     .setValue(new Tracking(FirebaseAuth.getInstance().getCurrentUser().getEmail(),
                             FirebaseAuth.getInstance().getCurrentUser().getUid(),
@@ -233,6 +279,7 @@ public class GpsLocation extends AppCompatActivity implements GoogleApiClient.Co
         }else{
 //            Toast.makeText(this, "Couldn't get the Location", Toast.LENGTH_SHORT).show();
             Log.d("Test", "Couldn't Load Location");
+            pd.dismiss();
         }
     }
 

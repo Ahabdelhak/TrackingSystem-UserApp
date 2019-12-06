@@ -58,13 +58,15 @@
             android:name="com.example.ahabdelhak.userapp.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name="com.example.ahabdelhak.userapp.MainActivity" >
+        </activity>
+        <activity android:name="com.example.ahabdelhak.userapp.GpsLocation" >
+        </activity>
+        <activity android:name="com.example.ahabdelhak.userapp.Register" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.example.ahabdelhak.userapp.GpsLocation" >
         </activity>
 
         <meta-data

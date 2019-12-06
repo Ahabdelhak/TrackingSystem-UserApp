@@ -568,6 +568,10 @@
         "source": "C:\\Users\\ah_abdelhak\\.gradle\\caches\\transforms-2\\files-2.1\\8b7b145040f80622d5d2271a1f9fca83\\appcompat-1.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "E:\\1-Freelancing\\TrackingSystem\\TrackingApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "E:\\1-Freelancing\\TrackingSystem\\TrackingApp\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
         "merged": "E:\\1-Freelancing\\TrackingSystem\\TrackingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\ah_abdelhak\\.gradle\\caches\\transforms-2\\files-2.1\\9d6f0c6ce1072e080bd324ee1d6f3685\\material-1.0.0\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },

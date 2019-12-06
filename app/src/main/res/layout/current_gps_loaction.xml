@@ -3,45 +3,44 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="#FFF3E0">
 
     <TextView
-        android:text="Latitude Show Here"
+        android:text="Latitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
-        android:id="@+id/textView2"
+        android:id="@+id/txtLat"
         android:textColor="#000000"
         android:textSize="25dp"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Enable GPS in device"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/txtLng"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:id="@+id/button" />
+        android:id="@+id/Gpsbtn" />
 
     <Button
-        android:text="Access GPS location in coordinates "
+        android:text="view on Map"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/Gpsbtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:id="@+id/button2" />
+        android:id="@+id/map" />
 
     <TextView
-        android:text="Longitude Show Here"
+        android:text="Longitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:id="@+id/txtLng"
         android:textColor="#000000"
         android:textSize="25dp"
+        android:layout_below="@+id/txtLat"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="96dp" />
